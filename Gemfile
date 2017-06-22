@@ -14,6 +14,9 @@ gem "coffee-rails", "~> 4.2"
 gem "jquery-rails"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
+gem "rubocop", require: false
+gem "rubocop-checkstyle_formatter", require: false
+gem "eslint-rails"
 
 group :development, :test do
   gem "byebug", platform: :mri
