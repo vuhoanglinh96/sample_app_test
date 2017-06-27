@@ -29,6 +29,10 @@ en:
   link_ror: Ruby on Rails
   book: book
 
+  layouts:
+    application:
+      title_info: "Ruby on Rails Tutorial Sample App"
+
   static_pages:
     home:
       home: Home
