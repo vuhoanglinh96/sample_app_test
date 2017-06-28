@@ -32,12 +32,25 @@ en:
   layouts:
     application:
       title_info: "Ruby on Rails Tutorial Sample App"
+      sample_app: "sample app"
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+
+    footer:
+      info: "The %{rort} by %{author}"
+      rort: "Ruby on Rails Tutorial"
+      author: Michael Hartl
+      about: "About"
+      contact: "Contact"
+      news: "News"
 
   static_pages:
     home:
       home: Home
-      sample_app: "Sample App"
+      sample_app: "Welcome to the Sample App"
       content: "This is the home page for the %{rort} sample application."
+      sign_up: "Sign up now!"
 
     help:
       help: "Help"
@@ -49,3 +62,14 @@ en:
       content: "The <em>%{link_book}</em> is a %{book} and
         %{link_screencast} to teach web development with %{link_ror}.
         This is the sample application for the tutorial."
+
+    contact:
+      contact: "Contact"
+      content: "Contact the Ruby on Rails Tutorial about the
+        sample app at the %{contact_page}."
+      contact_page: "contact page"
+
+  users:
+    new:
+      sign_up: "Sign up"
+      content: "This will be a signup page for new users."
