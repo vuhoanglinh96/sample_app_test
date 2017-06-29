@@ -3,6 +3,14 @@
 
 $gray-medium-light: #eaeaea;
 $white: #fff;
+$red: #f00;
+$b: #bbb;
+
+@mixin box-sizing {
+  -moz: border-box;
+  -webkit: border-box;
+  box-sizing: border-box;
+}
 
 body {
   padding-top: 60px;
@@ -96,5 +104,85 @@ footer {
       float: left;
       margin-left: 15px;
     }
+  }
+}
+
+.debug-dump {
+  @include box-sizing;
+  clear: both;
+  float: left;
+  margin-top: 45px;
+  width: 100%;
+}
+
+aside {
+  .user-info {
+    margin-top: 20px;
+  }
+
+  section {
+    margin-top: 20px;
+    padding: 10px 0;
+
+    &:first-child {
+      border: 0;
+      padding-top: 0;
+    }
+
+    span {
+      display: block;
+      line-height: 1;
+      margin-bottom: 3px;
+    }
+
+    h1 {
+      font-size: 1.4em;
+      letter-spacing: -1px;
+      margin-bottom: 3px;
+      margin-top: 0;
+      text-align: left;
+    }
+  }
+}
+
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.gravatar-edit {
+  margin-top: 15px;
+}
+
+input,
+textarea,
+select,
+.uneditable-input {
+  @include box-sizing;
+  border: 1px solid $b;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+input {
+  height: auto;
+}
+
+.error-explanation {
+  color: $red;
+
+  ul {
+    color: $red;
+    margin: 0 0 30px;
+  }
+}
+
+.field-with-errors {
+  // scss-lint:disable PlaceholderInExtend
+  @extend .has-error;
+  // scss-lint:enable PlaceholderInExtend
+
+  .form-control {
+    color: $state-danger-text;
   }
 }

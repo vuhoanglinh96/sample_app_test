@@ -73,3 +73,17 @@ en:
     new:
       sign_up: "Sign up"
       content: "This will be a signup page for new users."
+      confirm: "Confirmation"
+      submit: "Create my account"
+
+    create:
+      sample_app: "Welcome to the Sample App"
+
+    show:
+      not_found: "That user doesn't exist"
+
+  shared:
+    error_messages:
+      form_error:
+        one: "The form contains %{count} error."
+        other: "The form contains %{count} errors."
