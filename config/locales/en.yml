@@ -30,6 +30,15 @@ en:
   book: book
 
   layouts:
+    header:
+      home: "Home"
+      help: "Help"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
+
     application:
       title_info: "Ruby on Rails Tutorial Sample App"
       sample_app: "sample app"
@@ -47,7 +56,7 @@ en:
 
   static_pages:
     home:
-      home: Home
+      home: "Home"
       sample_app: "Welcome to the Sample App"
       content: "This is the home page for the %{rort} sample application."
       sign_up: "Sign up now!"
@@ -87,3 +96,11 @@ en:
       form_error:
         one: "The form contains %{count} error."
         other: "The form contains %{count} errors."
+
+  sessions:
+    new:
+      log_in: "Log in"
+      sign_up: "New user? %{signup_path}"
+      signup_path: "Sign up now!"
+    create:
+      login_error: "Invalid email/password combination"

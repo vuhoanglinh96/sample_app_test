@@ -13,6 +13,7 @@ class User < ApplicationRecord
     length: {maximum: Settings.validates.username.maximum}
 
   private
+
   def email_downcase
     email.downcase!
   end
