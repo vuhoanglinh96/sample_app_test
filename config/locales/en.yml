@@ -102,5 +102,7 @@ en:
       log_in: "Log in"
       sign_up: "New user? %{signup_path}"
       signup_path: "Sign up now!"
+      remember_me: "Remember me on this computer"
     create:
-      login_error: "Invalid email/password combination"
+      email_error: "Email doesn't exist"
+      password_error: "Invalid email/password combination"
