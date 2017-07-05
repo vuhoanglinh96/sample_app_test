@@ -29,3 +29,4 @@ config/environments/*.local.yml
 .framgia-ci-result.temp.yml
 Guardfile
 .byebug_history
+/config/application.yml

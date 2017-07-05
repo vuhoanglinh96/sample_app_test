@@ -91,6 +91,7 @@ en:
 
     create:
       sample_app: "Welcome to the Sample App"
+      activation_message: "Please check your email to activate your account."
 
     show:
       not_found: "That user doesn't exist"
@@ -130,3 +131,19 @@ en:
     create:
       email_error: "Email doesn't exist"
       password_error: "Invalid email/password combination"
+      activation_warning: "Account not activated.
+        Check your email for the activation link."
+
+  account_activations:
+    edit:
+      success_activation: "Account activated!"
+      fail_activation: "Invalid activation link"
+
+  user_mailer:
+    account_activation:
+      title: Sample App
+      greeting: "Hi"
+      subject: "Account activation"
+      content: "Welcome to the Sample App!
+        Click on the link below to activate your account:"
+      activate: "Activate"
