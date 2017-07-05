@@ -79,6 +79,10 @@ en:
       contact_page: "contact page"
 
   users:
+    index:
+      all_user: "All user"
+      log_in: "Please log in"
+
     new:
       sign_up: "Sign up"
       content: "This will be a signup page for new users."
@@ -90,6 +94,26 @@ en:
 
     show:
       not_found: "That user doesn't exist"
+
+    edit:
+      edit_user: "Edit user"
+      update: "Update your profile"
+      save: "Save changes"
+      change: "Change"
+      success: "Profile updated"
+      not_found: "That user doesn't exist"
+      log_in: "Please log in"
+
+    update:
+      success: "Profile updated"
+      not_found: "That user doesn't exist"
+      log_in: "Please log in"
+
+    destroy:
+      success: "User deleted"
+
+    user:
+      confirm: "You sure?"
 
   shared:
     error_messages:
