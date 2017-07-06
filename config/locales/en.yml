@@ -125,6 +125,7 @@ en:
   sessions:
     new:
       log_in: "Log in"
+      forgot: "(forgot password)"
       sign_up: "New user? %{signup_path}"
       signup_path: "Sign up now!"
       remember_me: "Remember me on this computer"
@@ -147,3 +148,33 @@ en:
       content: "Welcome to the Sample App!
         Click on the link below to activate your account:"
       activate: "Activate"
+
+    password_reset:
+      subject: "Password reset"
+      para1: "To reset your password click the link below:"
+      para2: "This link will expire in two hours."
+      para3: "If you did not request your password to be reset, please
+        ignore this email and your password will stay as it is."
+      reset: "Reset password"
+
+  password_resets:
+    new:
+      title: "Forgot password"
+      submit: "Submit"
+
+    create:
+      email_info: "Email sent with password reset instructions"
+      email_error: "Email address not found"
+
+    edit:
+      title: "Reset password"
+      update: "Update password"
+      confirm: "Confirmation"
+      expire: "Password reset has expired."
+      not_found: "That user doesn't exist"
+
+    update:
+      cant_empty: "can't be empty"
+      success_reset: "Password has been reset."
+      expire: "Password reset has expired."
+      not_found: "That user doesn't exist"
