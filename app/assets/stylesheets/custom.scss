@@ -5,6 +5,7 @@ $gray-medium-light: #eaeaea;
 $white: #fff;
 $red: #f00;
 $b: #bbb;
+$e8: #e8e8e8;
 
 @mixin box-sizing {
   -moz: border-box;
@@ -120,6 +121,11 @@ aside {
     margin-top: 20px;
   }
 
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+
   section {
     margin-top: 20px;
     padding: 10px 0;
@@ -213,5 +219,51 @@ form {
     border-bottom: 1px solid $gray-lighter;
     overflow: auto;
     padding: 10px 0;
+  }
+}
+
+.microposts {
+  list-style: none;
+  padding: 0;
+
+  li {
+    border-top: 1px solid $e8;
+    padding: 10px 0;
+  }
+
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+
+  .content {
+    display: block;
+    margin-left: 60px;
+
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+
+  .timestamp {
+    color: $gray-light;
+    display: block;
+    margin-left: 60px;
+  }
+
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+span
+.picture {
+  margin-top: 10px;
+
+  input {
+    border: 0;
   }
 }

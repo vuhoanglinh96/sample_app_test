@@ -28,6 +28,7 @@ en:
   link_screencast: screencast series
   link_ror: Ruby on Rails
   book: book
+  image_size: "should be less than 5MB"
 
   layouts:
     header:
@@ -60,6 +61,7 @@ en:
       sample_app: "Welcome to the Sample App"
       content: "This is the home page for the %{rort} sample application."
       sign_up: "Sign up now!"
+      feed: "Micropost Feed"
 
     help:
       help: "Help"
@@ -95,6 +97,7 @@ en:
 
     show:
       not_found: "That user doesn't exist"
+      microposts: "Microposts"
 
     edit:
       edit_user: "Edit user"
@@ -121,6 +124,16 @@ en:
       form_error:
         one: "The form contains %{count} error."
         other: "The form contains %{count} errors."
+
+    micropost_form:
+      compose: "Compose new micropost..."
+      submit: "Post"
+
+    user_info:
+      view: "view my profile"
+      micropost:
+        one: "%{count} micropost"
+        other: "%{count} microposts"
 
   sessions:
     new:
@@ -178,3 +191,17 @@ en:
       success_reset: "Password has been reset."
       expire: "Password reset has expired."
       not_found: "That user doesn't exist"
+
+  microposts:
+    create:
+      success: "Micropost created!"
+
+    destroy:
+      success: "Micropost deleted"
+
+    micropost:
+      time_ago: "Posted %{time} ago."
+
+  java:
+    alert:
+      picture_size: "Maximum file size is 5MB. Please choose a smaller file."

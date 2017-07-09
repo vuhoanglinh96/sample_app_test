@@ -7,3 +7,6 @@ validates:
 
   username:
     maximum: 50
+
+  micropost:
+    postlength: 12
