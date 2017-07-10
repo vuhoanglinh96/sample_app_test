@@ -1,0 +1,7 @@
+<% user ||= current_user %>
+<div class="stats">
+  <%= link_to t(".following", count: user.following.count).html_safe,
+    following_user_path(user) %>
+  <%= link_to t(".follower", count: user.followers.count).html_safe,
+    followers_user_path(user) %>
+</div>

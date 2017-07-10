@@ -29,6 +29,7 @@ en:
   link_ror: Ruby on Rails
   book: book
   image_size: "should be less than 5MB"
+  view_profile: "view my profile"
 
   layouts:
     header:
@@ -119,6 +120,22 @@ en:
     user:
       confirm: "You sure?"
 
+    following:
+      following: "Following"
+
+    followers:
+      followers: "Follower"
+      view_profile: "view my profile"
+
+    show_follow:
+      microposts: "Microposts:"
+
+    follow:
+      follow: "Follow"
+
+    unfollow:
+      unfollow: "Unfollow"
+
   shared:
     error_messages:
       form_error:
@@ -134,6 +151,12 @@ en:
       micropost:
         one: "%{count} micropost"
         other: "%{count} microposts"
+
+    stats:
+      following: "<strong id='following' class='stat'>%{count}
+        </strong> following"
+      follower: "<strong id='followers' class='stat'>%{count}
+        </strong> followers"
 
   sessions:
     new:
@@ -205,3 +228,8 @@ en:
   java:
     alert:
       picture_size: "Maximum file size is 5MB. Please choose a smaller file."
+
+  relationships:
+    index:
+      following: "Following"
+      followers: "Followers"
